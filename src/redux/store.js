@@ -5,4 +5,10 @@ export const store = configureStore({
   reducer: {
     pokemon: pokemonReducer,
   },
+  // remove the warning
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware({
+      immutableCheck: false,
+      serializableCheck: false,
+    }),
 });

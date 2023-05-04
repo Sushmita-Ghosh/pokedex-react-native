@@ -5,6 +5,7 @@ const pokemonSlice = createSlice({
   initialState: {
     pokemon: [],
     filteredData: [],
+    currentPokemon: [],
   },
   reducers: {
     setPokemons(state, action) {
@@ -13,8 +14,13 @@ const pokemonSlice = createSlice({
     setFilteredData(state, action) {
       state.filteredData = action.payload;
     },
+
+    setCurrentPokemon(state, action) {
+      state.currentPokemon = action.payload;
+    },
   },
 });
 
-export const { setPokemons, setFilteredData } = pokemonSlice.actions;
+export const { setPokemons, setFilteredData, setCurrentPokemon } =
+  pokemonSlice.actions;
 export default pokemonSlice.reducer;
