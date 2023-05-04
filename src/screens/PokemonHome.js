@@ -11,13 +11,11 @@ import React, { useState, useEffect } from "react";
 import PokemonCard from "../components/PokemonCard";
 import { getPokemonsApiAll } from "../api/pokemon";
 import { MaterialIcons } from "@expo/vector-icons";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import { setPokemons } from "../redux/pokemonSlice.js";
 
 const PokemonHome = () => {
   const [pokemon, setPokemon] = useState([]);
-  // const pokemonState = useSelector((state) => state.pokemon);
-  // console.log(pokemonState);
   const dispatch = useDispatch();
   const [search, setSearch] = useState("");
   const [filterData, setFilterData] = useState([]);
@@ -27,7 +25,7 @@ const PokemonHome = () => {
   const loadPokemonsAll = async () => {
     const data = await getPokemonsApiAll();
     setPokemon(data.results);
-    // dispatch(setPokemons(data.results));
+    dispatch(setPokemons(data.results));
     setFilterData(data.results);
     setNext(data.next);
   };

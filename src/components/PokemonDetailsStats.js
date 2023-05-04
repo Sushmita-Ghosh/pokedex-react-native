@@ -3,9 +3,12 @@ import React from "react";
 import getColorByPokemonType from "../utils/getColorByPokemonType";
 import { capitalize } from "lodash";
 import * as Progress from "react-native-progress";
+import { useSelector } from "react-redux";
 
-const PokemonDetailsStats = ({ pokemon }) => {
-  const { stats } = pokemon;
+const PokemonDetailsStats = () => {
+  const currentPokemon = useSelector((state) => state.pokemon.currentPokemon);
+  const { stats } = currentPokemon;
+
   const color = getColorByPokemonType("stat");
   const bgStyle = [{ backgroundColor: color, ...styles.content }];
 

@@ -10,17 +10,22 @@ import {
 import { upperCase, capitalize } from "lodash";
 import getColorByPokemonType from "../utils/getColorByPokemonType";
 import { getPokemonDescriptionApi } from "../api/pokemon";
-import Box from "./pokemon/Box";
+import Box from "./atoms/Box";
 import { removeEscapeCharacters } from "../utils/removeEscapeCharacters";
-import Weakness from "./pokemon/Weakness";
+import Weakness from "./atoms/Weakness";
 import { images } from "../data/images.js";
+import { useSelector } from "react-redux";
 
-function PokemonDetailsHeader({ pokemon }) {
-  const { name, order, types, id, height, weight, abilities } = pokemon;
+function PokemonDetailsHeader() {
+  const currentPokemon = useSelector((state) => state.pokemon.currentPokemon);
+  const { name, order, types, id, height, weight, abilities } = currentPokemon;
+
+  // console.log(currentPokemon);
+
   const [pokemonDesc, setPokemonDesc] = useState();
 
   const color = getColorByPokemonType("background");
-  // const color = "#fff";
+  // // const color = "#fff";
   const imageColor = getColorByPokemonType(types[0].type.name);
   const bgStyle = [{ backgroundColor: color, ...styles.content }];
   const imageContainerStyle = [
@@ -59,11 +64,12 @@ function PokemonDetailsHeader({ pokemon }) {
 
   if (!pokemonDesc) return;
 
+  // console.log(pokemonDesc);
+
   // for images - since it's not loading from the api
+
   let imagePokemon =
-    images[pokemon.id] !== undefined
-      ? images[pokemon.id].image
-      : images[1].image;
+    images[id] !== undefined ? images[id].image : images[1].image;
 
   return (
     <>
@@ -144,13 +150,13 @@ function PokemonDetailsHeader({ pokemon }) {
           <View style={styles.subGroup}>
             <Text style={styles.headerText}>Types</Text>
             <View>
-              <Box data={pokemon.types} />
+              <Box data={currentPokemon.types} />
             </View>
           </View>
         </View>
 
         {/* Weak Against */}
-        <Weakness pokemon={pokemon} />
+        <Weakness />
       </SafeAreaView>
     </>
   );

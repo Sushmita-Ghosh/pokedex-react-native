@@ -1,15 +1,17 @@
 import { View, Text, ScrollView } from "react-native";
 import React, { useState, useEffect, memo } from "react";
+import { useDispatch } from "react-redux";
 import { getPokemonDetailsApi, getPokemonGenders } from "../api/pokemon";
 import PokemonDetailsHeader from "../components/PokemonDetailsHeader";
 import PokemonDetailsStats from "../components/PokemonDetailsStats";
+import { setCurrentPokemon } from "../redux/pokemonSlice.js";
 
 const PokemonDetails = ({ route, navigation }) => {
   const { id } = route.params;
 
   const [pokemon, setPokemon] = useState(null);
   // const pokemons = useSelector((state) => state.pokemon);
-  // const dispatch = useDispatch();
+  const dispatch = useDispatch();
   // console.log(pokemons);
 
   useEffect(() => {
@@ -17,6 +19,7 @@ const PokemonDetails = ({ route, navigation }) => {
       try {
         const response = await getPokemonDetailsApi(id);
         setPokemon(response);
+        dispatch(setCurrentPokemon(response));
       } catch (error) {
         navigation.goBack();
       }
@@ -27,8 +30,8 @@ const PokemonDetails = ({ route, navigation }) => {
 
   return (
     <ScrollView>
-      <PokemonDetailsHeader pokemon={pokemon} />
-      <PokemonDetailsStats pokemon={pokemon} />
+      <PokemonDetailsHeader />
+      {/* <PokemonDetailsStats pokemon={pokemon} /> */}
     </ScrollView>
   );
 };
