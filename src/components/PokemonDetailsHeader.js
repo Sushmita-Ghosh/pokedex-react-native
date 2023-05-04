@@ -18,6 +18,7 @@ import { useSelector } from "react-redux";
 
 function PokemonDetailsHeader() {
   const currentPokemon = useSelector((state) => state.pokemon.currentPokemon);
+  // console.log(currentPokemon);
   const { name, order, types, id, height, weight, abilities } = currentPokemon;
 
   // console.log(currentPokemon);

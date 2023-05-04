@@ -18,8 +18,8 @@ const PokemonDetails = ({ route, navigation }) => {
     (async () => {
       try {
         const response = await getPokemonDetailsApi(id);
-        setPokemon(response);
         dispatch(setCurrentPokemon(response));
+        setPokemon(response);
       } catch (error) {
         navigation.goBack();
       }
@@ -31,7 +31,7 @@ const PokemonDetails = ({ route, navigation }) => {
   return (
     <ScrollView>
       <PokemonDetailsHeader />
-      {/* <PokemonDetailsStats pokemon={pokemon} /> */}
+      <PokemonDetailsStats />
     </ScrollView>
   );
 };
