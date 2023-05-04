@@ -1,6 +1,12 @@
 # pokedex-react-native
 
-### Technologies - React Native
+#### Technologies - React Native, Redux Toolkit (for practice state)
+
+Features:
+* Contains Lottie Animation for the first stack screen
+* Redux Toolkit Used for storing the current pokemon in details screen
+* Jest Testing
+
 # Preview
 
 
