@@ -13,14 +13,23 @@ import { getPokemonsApiAll } from "../api/pokemon";
 import { MaterialIcons } from "@expo/vector-icons";
 import { useDispatch } from "react-redux";
 import { setPokemons } from "../redux/pokemonSlice.js";
+import SearchModal from "./../components/atoms/SearchModal";
 
 const PokemonHome = () => {
   const [pokemon, setPokemon] = useState([]);
   const dispatch = useDispatch();
   const [search, setSearch] = useState("");
   const [filterData, setFilterData] = useState([]);
+
+  // when the filter by type is true
+  const [filterTypeData, setFilterTypeData] = useState([]);
+
   const [next, setNext] = useState();
   const [isLoadingMore, setIsLoadingMore] = useState(false);
+  const [isTypeFilterTrue, setIsTypeFilterTrue] = useState(false);
+
+  //for modal
+  const [showModal, setShowModal] = useState(false);
 
   const loadPokemonsAll = async () => {
     const data = await getPokemonsApiAll();
@@ -47,6 +56,7 @@ const PokemonHome = () => {
   };
 
   const searchFilterDone = () => {
+    setIsTypeFilterTrue(false);
     if (search) {
       const newData = filterData.filter((item) => {
         const itemData = item.name ? item.name.toUpperCase() : "".toUpperCase();
@@ -77,33 +87,51 @@ const PokemonHome = () => {
         .then((res) => res.json())
         .then((data) => {
           setPokemon((prevPokemon) => [...prevPokemon, ...data.results]);
-          // setFilterData((prevPokemon) => [...prevPokemon, ...data.results]);
           setNext(data.next);
           setIsLoadingMore(false);
         });
-      // setCount(count + 1);
-      // console.log(count);
     }
+  };
+
+  const openModal = () => {
+    setShowModal(true);
   };
 
   return (
     <View style={styles.container}>
-      <View>
-        <TextInput
-          style={styles.textInputStyle}
-          value={search}
-          placeholder="Search pokemons by name"
-          onChangeText={(text) => searchFilter(text)}
-        />
-        <TouchableOpacity
-          onPress={searchFilterDone}
-          style={styles.searchButton}
-        >
-          <MaterialIcons name="search" size={25} color="black" />
-        </TouchableOpacity>
+      <Text style={styles.desc}>
+        Search for any pokemon that exists on the Planet
+      </Text>
+      <View style={styles.searchBar}>
+        <View style={styles.searchInput}>
+          <TextInput
+            style={styles.textInputStyle}
+            value={search}
+            placeholder="Search pokemons by name"
+            onChangeText={(text) => searchFilter(text)}
+          />
+          <TouchableOpacity
+            onPress={searchFilterDone}
+            style={styles.searchButton}
+          >
+            <MaterialIcons name="search" size={30} color="black" />
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.modalIcon}>
+          <View style={styles.modalIconBackground}>
+            <TouchableOpacity
+              onPress={openModal}
+              style={styles.searchModalButton}
+            >
+              <MaterialIcons name="tune" size={32} color="black" />
+            </TouchableOpacity>
+          </View>
+        </View>
       </View>
 
-      {filterData.length > 0 ? (
+      {/* not filtered by type */}
+      {filterData.length > 0 && isTypeFilterTrue === false && (
         <FlatList
           data={filterData}
           numColumns={2}
@@ -122,19 +150,46 @@ const PokemonHome = () => {
           }
           contentContainerStyle={styles.flatList}
         />
-      ) : (
+      )}
+
+      {/* When Pokemon is not found in filtered list */}
+
+      {filterData.length === 0 && isTypeFilterTrue === false && (
         <View style={styles.notFoundContainer}>
           <Text style={styles.NotFound}>
             Not Found, Please try for some other pokemon!
           </Text>
         </View>
       )}
+
+      {/* filtered by type */}
+
+      {isTypeFilterTrue && (
+        <FlatList
+          data={filterTypeData}
+          numColumns={2}
+          keyExtractor={(item) => item.pokemon.name}
+          renderItem={({ item }) => <PokemonCard url={item.pokemon.url} />}
+          contentContainerStyle={styles.flatList}
+        />
+      )}
+
+      {/* Modal */}
+      <View style={styles.modals}>
+        <SearchModal
+          showModal={showModal}
+          setShowModal={setShowModal}
+          setFilterTypeData={setFilterTypeData}
+          // filterData={filterData}
+          setIsTypeFilterTrue={setIsTypeFilterTrue}
+        />
+      </View>
     </View>
   );
 };
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#fff",
+    backgroundColor: "#d6eadf",
   },
   flatList: {
     paddingVertical: 5,
@@ -156,32 +211,26 @@ const styles = StyleSheet.create({
   },
   textInputStyle: {
     position: "relative",
-    height: 40,
-    margin: 12,
-    // marginLeft: ,
-    // marginTop: 0,
+    height: 50,
     borderWidth: 1,
-    padding: 10,
+    paddingHorizontal: 10,
     borderRadius: 10,
-    // width: "100%",
-    // borderColor: "black",
-    // borderWidth: 1,
-    // borderStyle: "dashed",
+    width: "100%",
   },
 
   searchButton: {
     position: "absolute",
-    right: 20,
-    bottom: 20,
+    right: 10,
+    bottom: 15,
   },
 
-  search: {
+  searchBar: {
     flexDirection: "row",
-    marginBottom: 12,
-    marginTop: 25,
-    height: 40,
-    width: "100%",
-    justifyContent: "space-evenly",
+    marginBottom: 20,
+    marginTop: 5,
+    // width: "100%",
+    paddingHorizontal: 10,
+    justifyContent: "space-between",
   },
   spinner: {
     marginTop: 20,
@@ -190,6 +239,38 @@ const styles = StyleSheet.create({
   NotFound: {
     backgroundColor: "#fff",
     fontSize: 19,
+  },
+
+  // type search
+  modals: {
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  searchModalButton: {},
+
+  searchInput: {
+    width: "80%",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    padding: 5,
+  },
+  modalIcon: {
+    width: "20%",
+    // backgroundColor: "grey",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+
+  modalIconBackground: {
+    backgroundColor: "rgba(0,0,0,0.4)",
+    padding: 7,
+    borderRadius: 7,
+  },
+
+  desc: {
+    fontSize: 15,
+    marginHorizontal: 20,
+    marginVertical: 15,
   },
 });
 

@@ -1,10 +1,15 @@
-import "react-native";
 import React from "react";
-import Box from "../src/components/pokemon/Box.js";
-import renderer from "react-test-renderer";
+import Box from "../src/components/atoms/Box.js";
+import { render, screen, fireEvent } from "@testing-library/react-native";
 
-test("render app snapshot", () => {
-  const snapshot = renderer.create(<Box />).toJSON();
-
-  expect(snapshot).toMatchSnapshot();
+test("Check if Box rendered Correctly", () => {
+  const data = [
+    {
+      type: {
+        name: "fighting",
+      },
+    },
+  ];
+  render(<Box data={data} />);
+  expect(screen.getByText("Fighting")).toBeTruthy();
 });

@@ -114,7 +114,13 @@ function PokemonDetailsHeader() {
         <View style={styles.subGroupContainer}>
           <View style={styles.subGroup}>
             <Text style={styles.headerText}>Gender(s)</Text>
-            <Text>{height}</Text>
+            <Text>
+              {["Male", "Female"].map((item, index) => (
+                <Text key={index}>
+                  {index !== 1 ? capitalize(item) + ", " : capitalize(item)}
+                </Text>
+              ))}
+            </Text>
           </View>
 
           <View style={styles.subGroup}>

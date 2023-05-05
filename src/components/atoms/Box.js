@@ -1,10 +1,26 @@
-import React from "react";
-import { StyleSheet, View, Text } from "react-native";
-import { map, capitalize } from "lodash";
+import React, { useState } from "react";
+import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
+import { map, capitalize, truncate } from "lodash";
 import getColorByPokemonType from "../../utils/getColorByPokemonType";
 
 export default function Box(props) {
-  const { data, isWeak } = props;
+  const { data, isWeak, isModal, setTypesArray } = props;
+
+  const [pressed, setPressed] = useState(false);
+
+  const getPokemonTypes = (item) => {
+    setPressed(true);
+    console.log(item);
+    if (item) {
+      // (prevTypes) => [...prevTypes, item]
+      setTypesArray(item);
+    }
+  };
+
+  // const getPillColor = (item) =>
+  //   pressed
+  //     ? getColorByPokemonType("unknown")
+  //     : getColorByPokemonType(!isWeak ? item.type.name : item.name);
 
   return (
     <View style={styles.content}>
@@ -19,9 +35,23 @@ export default function Box(props) {
               ),
             }}
           >
-            <Text style={styles.type}>
-              {capitalize(!isWeak ? item.type.name : item.name)}
-            </Text>
+            {isModal ? (
+              <TouchableOpacity
+                // style={{
+                //   width: "100%",
+                //   backgroundColor: "red",
+                // }}
+                onPress={() => getPokemonTypes(item)}
+              >
+                <Text style={styles.type}>
+                  {capitalize(!isWeak ? item.type.name : item.name)}
+                </Text>
+              </TouchableOpacity>
+            ) : (
+              <Text style={styles.type}>
+                {capitalize(!isWeak ? item.type.name : item.name)}
+              </Text>
+            )}
           </View>
         ))}
     </View>
@@ -44,6 +74,7 @@ const styles = StyleSheet.create({
     borderColor: "black",
     borderWidth: 1,
     borderStyle: "solid",
+    // height: 40,
   },
   type: {
     color: "black",

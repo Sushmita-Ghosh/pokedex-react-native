@@ -29,7 +29,7 @@ const PokemonDetailsStats = () => {
                 progress={1}
                 width={200}
                 borderWidth={0}
-                color="#CCDDDC"
+                color="#d6eadf"
                 borderRadius={0}
                 height={14}
               />

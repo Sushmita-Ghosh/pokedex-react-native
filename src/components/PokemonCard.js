@@ -82,8 +82,8 @@ const styles = StyleSheet.create({
     borderStyle: "dashed",
   },
   image: {
-    width: 120,
-    height: 120,
+    width: 140,
+    height: 140,
   },
 });
 

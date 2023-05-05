@@ -1,7 +1,7 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import PokemonHome from "./../screens/PokemonHome";
 import PokemonDetails from "../screens/PokemonDetails";
-import { TouchableOpacity } from "react-native";
+import { TouchableOpacity, Text } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import LottieScreen from "../screens/LottieScreen";
 
@@ -25,10 +25,25 @@ const MainNavigator = () => {
       <Stack.Screen
         name="PokemonHome"
         component={PokemonHome}
-        options={{
-          headerTitle: "Pokédex",
+        options={({ navigation }) => ({
+          headerTitle: () => (
+            <TouchableOpacity onPress={() => navigation.goBack()}>
+              <Text style={{ fontSize: 30, marginTop: 20 }}>Pokédex</Text>
+            </TouchableOpacity>
+          ),
           headerLargeTitle: true,
-        }}
+          // headerTintColor: "#fefefe",
+          headerShadowVisible: false,
+          // headerBackVisible: true,
+          headerBackVisible: false,
+          contentStyle: {
+            // borderTopColor: "black",
+            // borderTopWidth: 1,
+          },
+          headerStyle: {
+            backgroundColor: "#d6eadf",
+          },
+        })}
       />
 
       <Stack.Screen
