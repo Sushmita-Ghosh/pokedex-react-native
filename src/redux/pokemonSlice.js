@@ -5,7 +5,8 @@ const pokemonSlice = createSlice({
   initialState: {
     pokemon: [],
     filteredData: [],
-    currentPokemon: [],
+    // current Pokemon is a single object of pokemon
+    currentPokemon: {},
   },
   reducers: {
     setPokemons(state, action) {

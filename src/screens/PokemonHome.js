@@ -3,17 +3,15 @@ import {
   Text,
   TouchableOpacity,
   StyleSheet,
-  FlatList,
   TextInput,
-  ActivityIndicator,
 } from "react-native";
 import React, { useState, useEffect } from "react";
-import PokemonCard from "../components/PokemonCard";
 import { getPokemonsApiAll } from "../api/pokemon";
 import { MaterialIcons } from "@expo/vector-icons";
 import { useDispatch } from "react-redux";
 import { setPokemons } from "../redux/pokemonSlice.js";
-import SearchModal from "./../components/atoms/SearchModal";
+import SearchModal from "./../components/atoms/SearchModal/SearchModal";
+import LoadPokemonList from "../components/molecules/LoadPokemonList/LoadPokemonList";
 
 const PokemonHome = () => {
   const [pokemon, setPokemon] = useState([]);
@@ -95,6 +93,7 @@ const PokemonHome = () => {
 
   const openModal = () => {
     setShowModal(true);
+    setFilterTypeData([]); // starting afresh
   };
 
   return (
@@ -130,49 +129,15 @@ const PokemonHome = () => {
         </View>
       </View>
 
-      {/* not filtered by type */}
-      {filterData.length > 0 && isTypeFilterTrue === false && (
-        <FlatList
-          data={filterData}
-          numColumns={2}
-          keyExtractor={(item) => item.name}
-          renderItem={({ item }) => <PokemonCard url={item.url} />}
-          onEndReached={loadMore}
-          onEndReachedThreshold={0.1}
-          ListFooterComponent={() =>
-            isLoadingMore ? (
-              <ActivityIndicator
-                size="large"
-                style={styles.spinner}
-                color="#6b57ff"
-              />
-            ) : null
-          }
-          contentContainerStyle={styles.flatList}
-        />
-      )}
+      {/* Loading the pokemon list component */}
 
-      {/* When Pokemon is not found in filtered list */}
-
-      {filterData.length === 0 && isTypeFilterTrue === false && (
-        <View style={styles.notFoundContainer}>
-          <Text style={styles.NotFound}>
-            Not Found, Please try for some other pokemon!
-          </Text>
-        </View>
-      )}
-
-      {/* filtered by type */}
-
-      {isTypeFilterTrue && (
-        <FlatList
-          data={filterTypeData}
-          numColumns={2}
-          keyExtractor={(item) => item.pokemon.name}
-          renderItem={({ item }) => <PokemonCard url={item.pokemon.url} />}
-          contentContainerStyle={styles.flatList}
-        />
-      )}
+      <LoadPokemonList
+        filterData={filterData}
+        filterTypeData={filterTypeData}
+        isTypeFilterTrue={isTypeFilterTrue}
+        loadMore={loadMore}
+        isLoadingMore={isLoadingMore}
+      />
 
       {/* Modal */}
       <View style={styles.modals}>
@@ -180,7 +145,6 @@ const PokemonHome = () => {
           showModal={showModal}
           setShowModal={setShowModal}
           setFilterTypeData={setFilterTypeData}
-          // filterData={filterData}
           setIsTypeFilterTrue={setIsTypeFilterTrue}
         />
       </View>
@@ -189,6 +153,7 @@ const PokemonHome = () => {
 };
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
     backgroundColor: "#d6eadf",
   },
   flatList: {
@@ -205,9 +170,6 @@ const styles = StyleSheet.create({
     height: "100%",
     justifyContent: "center",
     alignItems: "center",
-    // borderColor: "black",
-    // borderWidth: 1,
-    // borderStyle: "dashed",
   },
   textInputStyle: {
     position: "relative",

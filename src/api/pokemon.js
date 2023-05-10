@@ -79,11 +79,7 @@ export async function getPokemonGenders() {
     const genderlessResponse = await fetch(genderless);
     const genderlessResult = await genderlessResponse.json();
 
-    return {
-      female: femaleResult,
-      male: maleResult,
-      genderless: genderlessResult,
-    };
+    console.log(femaleResult.pokemon_species_details);
   } catch (error) {
     throw error;
   }

@@ -2,8 +2,8 @@ import { View, Text, ScrollView } from "react-native";
 import React, { useState, useEffect, memo } from "react";
 import { useDispatch } from "react-redux";
 import { getPokemonDetailsApi, getPokemonGenders } from "../api/pokemon";
-import PokemonDetailsHeader from "../components/PokemonDetailsHeader";
-import PokemonDetailsStats from "../components/PokemonDetailsStats";
+import PokemonDetailsHeaderContainer from "../components/organisms/PokemonDetailsHeader/PokemonDetailsHeaderContainer";
+import PokemonDetailsStats from "../components/organisms/PokemonDetailsStats/PokemonDetailsStats";
 import { setCurrentPokemon } from "../redux/pokemonSlice.js";
 
 const PokemonDetails = ({ route, navigation }) => {
@@ -30,7 +30,7 @@ const PokemonDetails = ({ route, navigation }) => {
 
   return (
     <ScrollView>
-      <PokemonDetailsHeader />
+      <PokemonDetailsHeaderContainer />
       <PokemonDetailsStats />
     </ScrollView>
   );
