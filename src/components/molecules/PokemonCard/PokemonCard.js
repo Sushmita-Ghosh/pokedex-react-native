@@ -41,6 +41,8 @@ const PokemonCard = ({ url }) => {
     });
   };
 
+  // the below is not working , in my laptop due to network issues,
+  // we can replace the same in Image (instead of imagePokemon)
   // {
   //   uri: pokemon.sprites.other["official-artwork"].front_default,
   // }
