@@ -31,7 +31,7 @@ Have used React Native Testing Library & Jest to write the test cases. Below is 
 ## Features
 
 #### Search
-* We can serach the pokemons by name in the PokemonHome Screen in the text input field.
+* We can search the pokemons by name in the PokemonHome Screen in the text input field.
 * The Search icon resets the list and restores the old Pokemon List component.
 
 #### Filter
@@ -39,14 +39,4 @@ Have used React Native Testing Library & Jest to write the test cases. Below is 
 
 # Preview
 https://github.com/Sushmita-Ghosh/pokedex-react-native/assets/82622059/8faf8b37-3b50-489b-92fb-7707e1a6a4af
-
-## ToDos
-
-1. Testing Coverage - Improvement
-2. Gradient for the images
-3. Loading Indicator
-4. Adding more filters
-5. Performance
-
-
 
