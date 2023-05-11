@@ -1,13 +1,40 @@
 # pokedex-react-native
 
-#### Technologies - React Native, Redux Toolkit (for practice state)
+#### Technologies - React Native, Redux Toolkit 
 
 Features:
-* Contains Lottie Animation for the first stack screen
-* Redux Toolkit Used for storing the current pokemon in details screen
+* Contains Lottie Animation(needs improvement) for the first stack screen, we are redirected to home screen - on click of button at the bottom.
+* Testing done using React Native Testing Library & Jest.
+* Redux Toolkit Used for storing the current pokemon in details screen & details components.
+
+## Overview
+
+We are using the [PokeApi](https://pokeapi.co/) to fetch the data for the pokemons. We can find the docs for the same [Here](https://pokeapi.co/docs/v2)
+
+## Screens
+
+1. Lottie Screen - we can navigate to Pokemon Home Screen by clicking the button
+2. PokemonHome - for displaying all the pokemons in Flatlist
+3. PokemonDetialsScreen - displays all the details of the Pokemon like desc, stats, weakness etc
+
+## State
+
+* Used Redux Toolkit to store the current Pokemon details , the same is used for the child components like PokemonDetailsHeader, PokemonDetailsStats etc
+
+## Coverage
+
+Have used React Native Testing Library & Jest to write the test cases. Below is the screenshot from the coverage html.
+
+![image](https://github.com/Sushmita-Ghosh/pokedex-react-native/assets/82622059/31212a6d-8785-491b-af25-320ce310762f)
+
 
 # Preview
 
 
-https://user-images.githubusercontent.com/82622059/236445065-51c7c7ef-290f-42f4-a7d1-e89fd810b3f6.mp4
+## ToDos
+
+1.Testing Coverage
+2.Gradient for the images
+
+
 
