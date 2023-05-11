@@ -8,7 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest",
-    "test:coverage": "npm test -- --env=jsdom --coverage"
+    "test:coverage": "npx jest --coverage"
   },
   "jest": {
     "preset": "react-native",

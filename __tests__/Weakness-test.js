@@ -32,11 +32,11 @@ describe("Weakness Component", () => {
         },
       ],
     };
-    jest.spyOn(window, "fetch").mockImplementationOnce(() => {
-      return Promise.resolve({
-        json: () => Promise.resolve(mockResponse),
-      });
-    });
+
+    global.fetch = jest.fn(() =>
+      Promise.resolve({ json: () => Promise.resolve(mockResponse) })
+    );
+
     renderWithProviders(<Weakness />, {
       preloadedState: {
         pokemon: {

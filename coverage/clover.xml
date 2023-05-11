@@ -1,930 +1,930 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1683737370564" clover="3.2.0">
-  <project timestamp="1683737370564" name="All files">
-    <metrics statements="375" coveredstatements="270" conditionals="37" coveredconditionals="11" methods="51" coveredmethods="13" elements="463" coveredelements="294" complexity="0" loc="375" ncloc="375" packages="12" files="242" classes="242"/>
+<coverage generated="1683795805638" clover="3.2.0">
+  <project timestamp="1683795805638" name="All files">
+    <metrics statements="386" coveredstatements="296" conditionals="45" coveredconditionals="22" methods="55" coveredmethods="23" elements="486" coveredelements="341" complexity="0" loc="386" ncloc="386" packages="13" files="243" classes="243"/>
     <package name="assets.official-artwork">
       <metrics statements="229" coveredstatements="229" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="1.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\1.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="10.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\10.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="100.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\100.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="101.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\101.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="102.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\102.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="103.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\103.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="104.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\104.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="105.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\105.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="106.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\106.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="107.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\107.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="108.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\108.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="109.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\109.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="11.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\11.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="110.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\110.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="111.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\111.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="112.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\112.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="113.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\113.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="114.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\114.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="115.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\115.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="116.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\116.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="117.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\117.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="118.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\118.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="119.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\119.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="12.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\12.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="120.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\120.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="122.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\122.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="123.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\123.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="124.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\124.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="125.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\125.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="126.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\126.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="127.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\127.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="128.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\128.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="129.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\129.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="13.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\13.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="130.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\130.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="131.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\131.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="132.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\132.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="133.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\133.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="134.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\134.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="135.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\135.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="136.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\136.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="137.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\137.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="138.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\138.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="139.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\139.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="14.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\14.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="140.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\140.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="141.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\141.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="142.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\142.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="143.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\143.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="144.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\144.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="145.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\145.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="146.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\146.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="147.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\147.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="148.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\148.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="149.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\149.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="15.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\15.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="150.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\150.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="151.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\151.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="152.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\152.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="153.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\153.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="154.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\154.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="155.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\155.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="156.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\156.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="157.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\157.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="158.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\158.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="159.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\159.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="16.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\16.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="160.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\160.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="161.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\161.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="162.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\162.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="163.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\163.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="164.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\164.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="165.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\165.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="166.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\166.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="167.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\167.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="168.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\168.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="169.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\169.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="17.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\17.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="170.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\170.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="171.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\171.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="172.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\172.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="173.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\173.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="174.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\174.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="175.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\175.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="176.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\176.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="177.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\177.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="178.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\178.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="179.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\179.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="18.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\18.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="180.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\180.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="181.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\181.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="182.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\182.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="183.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\183.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="184.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\184.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="185.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\185.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="186.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\186.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="187.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\187.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="188.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\188.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="189.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\189.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="19.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\19.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="190.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\190.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="191.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\191.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="192.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\192.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="193.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\193.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="194.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\194.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="195.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\195.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="196.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\196.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="197.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\197.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="198.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\198.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="199.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\199.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="2.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\2.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="20.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\20.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="200.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\200.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="201.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\201.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="202.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\202.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="203.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\203.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="204.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\204.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="205.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\205.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="206.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\206.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="207.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\207.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="208.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\208.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="209.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\209.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="21.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\21.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="210.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\210.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="211.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\211.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="212.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\212.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="213.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\213.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="214.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\214.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="215.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\215.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="216.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\216.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="217.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\217.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="218.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\218.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="219.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\219.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="22.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\22.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="220.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\220.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="221.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\221.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="222.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\222.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="223.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\223.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="224.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\224.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="225.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\225.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="226.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\226.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="227.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\227.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="228.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\228.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="229.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\229.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="23.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\23.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="230.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\230.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="24.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\24.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="25.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\25.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="26.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\26.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="27.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\27.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="28.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\28.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="29.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\29.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="3.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\3.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="30.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\30.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="31.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\31.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="32.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\32.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="33.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\33.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="34.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\34.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="35.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\35.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="36.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\36.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="37.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\37.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="38.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\38.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="39.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\39.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="4.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\4.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="40.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\40.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="41.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\41.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="42.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\42.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="43.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\43.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="44.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\44.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="45.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\45.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="46.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\46.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="47.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\47.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="48.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\48.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="49.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\49.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="5.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\5.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="50.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\50.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="51.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\51.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="52.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\52.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="53.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\53.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="54.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\54.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="55.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\55.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="56.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\56.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="57.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\57.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="58.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\58.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="59.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\59.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="6.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\6.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="60.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\60.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="61.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\61.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="62.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\62.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="63.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\63.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="64.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\64.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="65.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\65.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="66.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\66.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="67.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\67.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="68.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\68.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="69.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\69.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="7.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\7.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="70.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\70.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="71.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\71.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="72.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\72.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="73.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\73.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="74.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\74.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="75.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\75.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="76.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\76.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="77.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\77.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="78.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\78.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="79.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\79.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="8.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\8.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="80.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\80.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="81.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\81.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="82.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\82.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="83.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\83.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="84.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\84.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="85.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\85.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="86.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\86.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="87.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\87.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="88.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\88.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="89.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\89.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="9.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\9.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="90.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\90.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="91.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\91.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="92.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\92.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="93.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\93.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="94.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\94.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="95.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\95.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="96.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\96.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="97.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\97.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="98.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\98.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="99.png" path="C:\Users\susghosh\Documents\ReactNative\pokedex\assets\official-artwork\99.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.api">
-      <metrics statements="47" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
+      <metrics statements="47" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="1"/>
       <file name="pokemon.js" path="C:\Users\susghosh\Documents\ReactNative\pokedex\src\api\pokemon.js">
-        <metrics statements="47" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <metrics statements="47" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="1"/>
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
@@ -953,11 +953,11 @@
         <line num="51" count="0" type="stmt"/>
         <line num="52" count="0" type="stmt"/>
         <line num="54" count="0" type="stmt"/>
-        <line num="59" count="0" type="stmt"/>
-        <line num="60" count="0" type="stmt"/>
-        <line num="61" count="0" type="stmt"/>
-        <line num="62" count="0" type="stmt"/>
-        <line num="63" count="0" type="stmt"/>
+        <line num="59" count="2" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="62" count="2" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
         <line num="65" count="0" type="stmt"/>
         <line num="66" count="0" type="stmt"/>
         <line num="71" count="0" type="stmt"/>
@@ -975,19 +975,19 @@
       </file>
     </package>
     <package name="src.components.atoms.Box">
-      <metrics statements="10" coveredstatements="6" conditionals="12" coveredconditionals="5" methods="4" coveredmethods="2"/>
+      <metrics statements="10" coveredstatements="6" conditionals="12" coveredconditionals="7" methods="4" coveredmethods="2"/>
       <file name="Box.js" path="C:\Users\susghosh\Documents\ReactNative\pokedex\src\components\atoms\Box\Box.js">
-        <metrics statements="10" coveredstatements="6" conditionals="12" coveredconditionals="5" methods="4" coveredmethods="2"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
+        <metrics statements="10" coveredstatements="6" conditionals="12" coveredconditionals="7" methods="4" coveredmethods="2"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
         <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="16" count="0" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
         <line num="44" count="0" type="stmt"/>
-        <line num="61" count="2" type="stmt"/>
+        <line num="61" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.Checkbox">
@@ -1035,20 +1035,20 @@
       </file>
     </package>
     <package name="src.components.atoms.Weakness">
-      <metrics statements="11" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="3" methods="5" coveredmethods="5"/>
       <file name="Weakness.js" path="C:\Users\susghosh\Documents\ReactNative\pokedex\src\components\atoms\Weakness\Weakness.js">
-        <metrics statements="11" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="50" count="1" type="stmt"/>
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="3" methods="5" coveredmethods="5"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="26" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecules.LoadPokemonList">
@@ -1069,7 +1069,7 @@
       <metrics statements="17" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="5" coveredmethods="0"/>
       <file name="PokemonCard.js" path="C:\Users\susghosh\Documents\ReactNative\pokedex\src\components\molecules\PokemonCard\PokemonCard.js">
         <metrics statements="17" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="17" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
         <line num="21" count="0" type="stmt"/>
@@ -1083,9 +1083,26 @@
         <line num="35" count="0" type="stmt"/>
         <line num="37" count="0" type="stmt"/>
         <line num="38" count="0" type="stmt"/>
-        <line num="48" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="52" count="0" type="stmt"/>
-        <line num="67" count="1" type="stmt"/>
+        <line num="50" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="69" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.PokemonDetailsHeader">
+      <metrics statements="11" coveredstatements="11" conditionals="8" coveredconditionals="6" methods="4" coveredmethods="4"/>
+      <file name="PokemonDetailsHeader.js" path="C:\Users\susghosh\Documents\ReactNative\pokedex\src\components\organisms\PokemonDetailsHeader\PokemonDetailsHeader.js">
+        <metrics statements="11" coveredstatements="11" conditionals="8" coveredconditionals="6" methods="4" coveredmethods="4"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="34" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="81" count="2" type="stmt"/>
+        <line num="92" count="1" type="stmt"/>
+        <line num="109" count="2" type="stmt"/>
+        <line num="134" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.organisms.PokemonDetailsStats">
@@ -1106,37 +1123,37 @@
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="images.js" path="C:\Users\susghosh\Documents\ReactNative\pokedex\src\data\images.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.redux">
       <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
       <file name="pokemonSlice.js" path="C:\Users\susghosh\Documents\ReactNative\pokedex\src\redux\pokemonSlice.js">
         <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="3" count="2" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
-        <line num="26" count="2" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.utils">
       <metrics statements="7" coveredstatements="7" conditionals="3" coveredconditionals="1" methods="3" coveredmethods="3"/>
       <file name="constants.js" path="C:\Users\susghosh\Documents\ReactNative\pokedex\src\utils\constants.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="5" type="stmt"/>
-        <line num="3" count="5" type="stmt"/>
-        <line num="29" count="5" type="stmt"/>
-        <line num="132" count="5" type="stmt"/>
+        <line num="1" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="29" count="7" type="stmt"/>
+        <line num="132" count="7" type="stmt"/>
       </file>
       <file name="getColorByPokemonType.js" path="C:\Users\susghosh\Documents\ReactNative\pokedex\src\utils\getColorByPokemonType.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="4" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
       </file>
       <file name="utils-for-test.js" path="C:\Users\susghosh\Documents\ReactNative\pokedex\src\utils\utils-for-test.js">
         <metrics statements="2" coveredstatements="2" conditionals="3" coveredconditionals="1" methods="2" coveredmethods="2"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
       </file>
     </package>
   </project>
