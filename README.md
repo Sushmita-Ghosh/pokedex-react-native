@@ -28,10 +28,10 @@ Have used React Native Testing Library & Jest to write the test cases. Below is 
 
 * All the test cases are in the __tests__ folder
 * Commands to run the coverage:
-- npm run test:coverage
-- npm run test
+  * npm run test:coverage
+  * npm run test
 
-![image](https://github.com/Sushmita-Ghosh/pokedex-react-native/assets/82622059/31212a6d-8785-491b-af25-320ce310762f)
+//![image](https://github.com/Sushmita-Ghosh/pokedex-react-native/assets/82622059/31212a6d-8785-491b-af25-320ce310762f)
 
 ## Features
 
