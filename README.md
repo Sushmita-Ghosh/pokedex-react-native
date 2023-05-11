@@ -7,14 +7,19 @@ Features:
 * Testing done using React Native Testing Library & Jest.
 * Redux Toolkit Used for storing the current pokemon in details screen & details components.
 
+## Overview
+
+We are using the [PokeApi](https://pokeapi.co/) to fetch the data for the pokemons. We can find the docs for the same [Here](https://pokeapi.co/docs/v2)
 
 ## Screens
 
-1. Lottie Screen
+1. Lottie Screen - we can navigate to Pokemon Home Screen by clicking the button
 2. PokemonHome - for displaying all the pokemons in Flatlist
 3. PokemonDetialsScreen - displays all the details of the Pokemon like desc, stats, weakness etc
 
-##
+## State
+
+* Used Redux Toolkit to store the current Pokemon details , the same is used for the child components like PokemonDetailsHeader, PokemonDetailsStats etc
 
 ## Coverage
 
@@ -29,6 +34,7 @@ Have used React Native Testing Library & Jest to write the test cases. Below is 
 ## ToDos
 
 1.Testing Coverage
+2.Gradient for the images
 
 
 
