@@ -31,7 +31,7 @@ Have used React Native Testing Library & Jest to write the test cases. Below is 
   * npm run test:coverage
   * npm run test
 
-//![image](https://github.com/Sushmita-Ghosh/pokedex-react-native/assets/82622059/31212a6d-8785-491b-af25-320ce310762f)
+![image](https://github.com/Sushmita-Ghosh/pokedex-react-native/assets/82622059/31212a6d-8785-491b-af25-320ce310762f)
 
 ## Features
 
@@ -43,5 +43,5 @@ Have used React Native Testing Library & Jest to write the test cases. Below is 
 * Filters by Type - We can have filter the pokemons based on the various types defined in the pokeapi. On click of the icon (In Pokemon Home Screen)
 
 # Preview
-///////https://github.com/Sushmita-Ghosh/pokedex-react-native/assets/82622059/8faf8b37-3b50-489b-92fb-7707e1a6a4af
+* https://github.com/Sushmita-Ghosh/pokedex-react-native/assets/82622059/8faf8b37-3b50-489b-92fb-7707e1a6a4af
 
