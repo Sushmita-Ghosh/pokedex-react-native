@@ -26,8 +26,8 @@ We are using the [PokeApi](https://pokeapi.co/) to fetch the data for the pokemo
 
 Have used React Native Testing Library & Jest to write the test cases. Below is the screenshot from the coverage html. Needs Work ✍
 
-** All the test cases are in the __tests__ folder
-** Commands to run the coverage:
+* All the test cases are in the __tests__ folder
+* Commands to run the coverage:
 - npm run test:coverage
 - npm run test
 
